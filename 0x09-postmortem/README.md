@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-    <head>
     <style>
         p {
             font-family: sans-serif;
@@ -15,8 +12,6 @@
             font-family: sans-serif;
         }
     </style>
-    </head>
-    <body>
 <h1>0x09-Postmortem</h1>
         
         <img src="https://camo.githubusercontent.com/7f427f06243ae054b44def810f654257960cab96ad54b07a65b22b2c69d8e6dd/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f302a6b486f574437674a30504339476d424b2e6a7067">
@@ -49,7 +44,3 @@
         <li>Create an automated test pipeline for every update push</li>
         <li>Add a monitoring software to our servers which will monitor lot of things and one of them Network Traffic resquests and responses and configure it to make an lert to the teams when too much non desired responses were sent like 404</li>
         <li>Create a tests for every new update and the teams shouuld not push until those tests pass</li>
-    </body>
-
-
-</html>
